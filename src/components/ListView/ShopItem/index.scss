@@ -1,0 +1,17 @@
+.list-item{
+  background: whitesmoke;
+  margin-bottom: 5px;
+
+  &__image{
+    max-width: 150px;
+  }
+
+  &__price{
+    color: orangered;
+    font-size: 24px;
+  }
+
+  p{
+    margin: 0;
+  }
+}
