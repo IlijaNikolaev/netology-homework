@@ -1,0 +1,17 @@
+.filter-btn{
+  border: 1px solid darkgrey;
+  background: none;
+  color: darkgrey;
+  padding: 5px 10px;
+  margin-right: 5px;
+
+  &--checked{
+    background: #333333;
+    color: white;
+    border: 1px solid #333333;
+  }
+}
+
+.toolbar{
+  text-align: left;
+}
