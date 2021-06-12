@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+.hex-to-rgb{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hex-to-rgb__input{
+  font-size: 16px;
+  display: block;
+  padding: 0 5px 0 5px;
+  border: none;
+  height: 40px;
+  width: 150px;
+}
+
+.hex-to-rgb__error{
+  height: 40px;
+  line-height: 40px;
+  width: 150px;
+  color: white;
+  background-color: rgba(0,0,0,.2);
+}
