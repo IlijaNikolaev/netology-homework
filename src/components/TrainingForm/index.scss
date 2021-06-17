@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+
+  &__input {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  &__submit {
+    display: block;
+    background: none;
+    height: 30px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  margin: 0 auto;
+}
+
+td{
+  padding: 20px;
+
+}
+
+
+tbody {
+  border-radius: 3px;
+  border: 1px solid #000;
+}
